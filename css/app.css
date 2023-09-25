@@ -18,22 +18,30 @@
 
 .page-hero {
   background-color: var(--green);
-  min-height: 2000px;
 }
 
 .img {
   width: 300px;
-  justify-content: center;
 }
 
 /* media query */
+@media (min-width: 768px){
+  .img{
+    width: 200px;
+  }
+}
 
+@media (min-width: 1200px){
+  .img{
+    width: 150px;
+  }
+}
 
 /* debug */
 
 [class^="col"] {
   border: 1px solid red;
-  min-height: 300px;
+
 }
 
 .container {
