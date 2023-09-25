@@ -31,7 +31,16 @@
   border-radius: 10px;
 }
 
+/* section about  */
 
+/* section contact  */
+
+.contact{
+  
+}
+.about{
+  background-color: var(--green);
+}
 /* media query */
 @media (min-width: 768px) {
   .img {
