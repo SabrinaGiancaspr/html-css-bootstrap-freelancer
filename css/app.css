@@ -14,7 +14,7 @@
   background-color: var(--blue);
 }
 
-/* header  */
+/* hero  */
 
 .page-hero {
   background-color: var(--green);
@@ -24,15 +24,23 @@
   width: 300px;
 }
 
+/* main  */
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
 /* media query */
-@media (min-width: 768px){
-  .img{
+@media (min-width: 768px) {
+  .img {
     width: 200px;
   }
 }
 
-@media (min-width: 1200px){
-  .img{
+@media (min-width: 1200px) {
+  .img {
     width: 150px;
   }
 }
@@ -41,7 +49,7 @@
 
 [class^="col"] {
   border: 1px solid red;
-
+  min-height: 100px;
 }
 
 .container {
