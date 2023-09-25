@@ -1,7 +1,36 @@
 /* utility class */
 
-:root{
-  --blue:#2C3E50;
-  --light-blue:#3A546D;
-  --green:#1ABC9C;
+:root {
+  --blue: #2C3E50;
+  --light-blue: #3A546D;
+  --green: #1ABC9C;
+}
+
+/* navbar  */
+
+.bg-color-nav{
+  background-color: var(--blue);
+}
+
+
+/* debug */
+
+[class^="col"] {
+  border: 1px solid red;
+}
+
+.container {
+  border: 1px solid purple;
+}
+
+.container-sm {
+  border: 1px solid yellow;
+}
+
+.container-md {
+  border: 1px solid black;
+}
+
+.container-lg {
+  border: 1px solid blue;
 }
