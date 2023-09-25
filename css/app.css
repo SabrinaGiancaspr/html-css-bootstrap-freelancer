@@ -32,15 +32,21 @@
 }
 
 /* section about  */
+.about {
+  background-color: var(--green);
+}
 
 /* section contact  */
 
-.contact{
-  
+/* footer  */
+.page-footer {
+  background-color: var(--light-blue);
 }
-.about{
-  background-color: var(--green);
+
+.footer-copyright {
+  background-color: var(--blue);
 }
+
 /* media query */
 @media (min-width: 768px) {
   .img {
@@ -58,7 +64,7 @@
 
 [class^="col"] {
   border: 1px solid red;
-  min-height: 100px;
+
 }
 
 .container {
