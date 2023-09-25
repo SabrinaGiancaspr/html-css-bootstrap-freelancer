@@ -16,8 +16,14 @@
 
 /* header  */
 
-.page-header {
+.page-hero {
   background-color: var(--green);
+  min-height: 2000px;
+}
+
+.img {
+  width: 300px;
+  justify-content: center;
 }
 
 /* media query */
@@ -27,6 +33,7 @@
 
 [class^="col"] {
   border: 1px solid red;
+  min-height: 300px;
 }
 
 .container {
