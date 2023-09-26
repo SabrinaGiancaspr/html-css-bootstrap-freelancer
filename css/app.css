@@ -20,12 +20,13 @@
   background-color: var(--green);
 }
 
-.fa-star{
+.fa-star {
   font-size: 25px;
   vertical-align: middle;
 }
 
-.star::before, .star::after{
+.star::before,
+.star::after {
   content: '';
   height: 4px;
   width: 8%;
